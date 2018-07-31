@@ -1,5 +1,3 @@
-# Every letter is in it's own cell...but the rows work?
-
 from sys import argv
 import json
 import csv
