@@ -23,7 +23,7 @@ def makeDateTime(dateList):
   return dateTimeObj
 
 def timeBtweenWeeks(startWk, endWk):
-  # Takes in a "start" date and a "go_live" date
+  # Takes in a "start" date and a "go_live" date, returns the difference between the two dates in weeks
   start = makeDateTime(formatDate(startWk))
   end = makeDateTime(formatDate(endWk))
   diff = (end - start).days
